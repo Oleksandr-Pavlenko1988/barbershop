@@ -1,0 +1,120 @@
+:root {
+    --primary-white-color: #ffffff;
+    --primary-gray-color: #303030;
+    --primary-text-color: #9DA4BD;
+    --secondary-text-color: #555555;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.text-decor {
+    text-decoration: none;
+}
+.list-style {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* header */
+.header {
+    background-color: teal;
+}
+.header a {
+    color: var(--primary-white-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+}
+.nav-link {
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #FF6C00;
+}
+.header-tel {
+    text-transform: uppercase;
+}
+.btn {
+    padding: 12px 20px;
+    color: var(--primary-white-color);
+    background: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+}
+
+/* hero */
+.hero {
+    background-image: url(../images/slider3.jpg);
+}
+.uptitle {
+    color: var(--primary-gray-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+.gray-uptitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+    color: var(--primary-white-color);
+    font-family: 'Raleway', sans-serif ;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+.primary-text {
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+}
+.text {
+    color: var(--primary-text-color)
+}
+
+/* about */
+.section-title {
+    font-family: 'Raleway';
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+}
+.dark {
+    color: var(--primary-gray-color);
+}
+.text-color {
+    color: var(--secondary-text-color);
+
+}
+.about-text{
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 26px; 
+    letter-spacing: 0.02em;
+}
+.btn-gray {
+    color: var(--primary-gray-color);
+}
+
+/* prices */
+.prices {
+    background-color: teal;
+}
+.gray-uptitle {
+    color: rgba(157, 164, 189, 0.6)
+}
+.title-white {
+    color: var(--primary-white-color);
+}
